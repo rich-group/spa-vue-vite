@@ -1,0 +1,29 @@
+{
+  "name": "{{ name }}",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:sit": "vite --mode sit",
+    "dev:pre": "vite",
+    "dev:prd": "vite prd",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "rich-axios": "^0.0.1",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "^4.0.4",
+    "@types/node": "^18.7.16",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "dotenv": "^16.0.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}

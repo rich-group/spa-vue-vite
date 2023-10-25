@@ -1,0 +1,13 @@
+{
+  "name": "vite-template",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "",
+  "scripts": {
+    "docs": "cd docs && gitbook serve",
+    "docs:deploy": "bash ./deploy-docs.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "dev": [
+      "npx",
+      "vite",
+      "--mode",
+      ["请选择环境", ["dev", "sit", "pre", "prd"]]
+    ],
+    "build": [
+      "npx",
+      "vue-tsc",
+      "--noEmit",
+      "&&",
+      "npx",
+      "vite",
+      "build"
+    ],
+    "preview": [
+      "npx",
+      "vite",
+      "preview"
+    ]
+  }
+}
